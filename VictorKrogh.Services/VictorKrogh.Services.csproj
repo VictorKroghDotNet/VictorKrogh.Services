@@ -23,7 +23,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.1" />
-		<PackageReference Include="VictorKrogh.Services.Abstractions" Version="8.0.3" />
+		<PackageReference Include="VictorKrogh.Services.Abstractions" Version="8.0.4" />
 	</ItemGroup>
 
 </Project>
