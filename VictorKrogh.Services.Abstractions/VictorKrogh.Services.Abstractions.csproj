@@ -18,7 +18,7 @@
 	</PropertyGroup>
 
 	<PropertyGroup>
-		<PackageId>VictorKrogh.Services</PackageId>
+		<PackageId>VictorKrogh.Services.Abstractions</PackageId>
 		<RepositoryType>git</RepositoryType>
 		<PackageProjectUrl>https://github.com/VictorKroghDotNet/VictorKrogh.Services</PackageProjectUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
@@ -28,14 +28,6 @@
 	<ItemGroup>
 		<None Include="..\README.md" Pack="true" PackagePath="\"/>
 		<None Include="..\LICENSE.txt" Pack="true" PackagePath="\"/>
-	</ItemGroup>
-
-	<ItemGroup>
-		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.1" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <ProjectReference Include="..\VictorKrogh.Services.Abstractions\VictorKrogh.Services.Abstractions.csproj" />
 	</ItemGroup>
 
 </Project>

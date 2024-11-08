@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictorKrogh.Services", "VictorKrogh.Services\VictorKrogh.Services.csproj", "{0DD76CF2-D82A-4E2F-9595-A8603BC7D453}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VictorKrogh.Services", "VictorKrogh.Services\VictorKrogh.Services.csproj", "{0DD76CF2-D82A-4E2F-9595-A8603BC7D453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictorKrogh.Services.Abstractions", "VictorKrogh.Services.Abstractions\VictorKrogh.Services.Abstractions.csproj", "{4E63FCFF-5FBA-48AF-8DD0-AD1124FFD77C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0DD76CF2-D82A-4E2F-9595-A8603BC7D453}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DD76CF2-D82A-4E2F-9595-A8603BC7D453}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DD76CF2-D82A-4E2F-9595-A8603BC7D453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E63FCFF-5FBA-48AF-8DD0-AD1124FFD77C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E63FCFF-5FBA-48AF-8DD0-AD1124FFD77C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E63FCFF-5FBA-48AF-8DD0-AD1124FFD77C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E63FCFF-5FBA-48AF-8DD0-AD1124FFD77C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
